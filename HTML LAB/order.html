@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: sans-serif;            
+        }
+        body{
+            background:url(image/order.jpg)
+        }
+     .border{
+        border: 2px solid rgb(245, 244, 244);
+        padding-left: 100px;
+        padding-right: 140px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: rgb(8, 8, 8);
+        margin-top: 20px;
+     }
+     .border{
+        float: right;
+        margin-right: 25em; 
+     }
+     input,label{
+        padding: 10px;
+     }h1{
+        color: rgb(233, 15, 15);
+     }
+     label{
+        color: rgb(231, 235, 220);
+        font-size: 150%;
+     }
+     #flavour{
+        color: antiquewhite;
+     }
+    </style>
+</head>
+<body>
+    <form name="mail" action="">
+        <div class="border">
+        <h1> Enter Your Order</h1>
+        <br><br>
+        <label name="box1">Name:</label>
+        <input  type="text" autofocus name="box1" placeholder="Enter Your Name" required>
+        <br><br>
+        <label name="box2">Area</label>
+            <input  type="text" name="pass" placeholder=" Enter Your Area" required>
+        <br><br>
+        <label name="box3">Mobile no:</label>
+        <input  type="number" name="pass" placeholder=" Enter Your mobile no" maxlength="10" required>
+    <br><br>
+    <label name="box4">Email</label>
+            <input  type="email" name="pass" placeholder=" Enter Your Email" required>
+        <br><br>
+        <div>
+            <h2 id="flavor">FLAVOURS</h2>
+        <select name="FLAVOURS">FLAVOURS
+            <option value="Chocolate">Chocolate</option>
+            <option value="Cappuccino">Cappuccino</option>
+            <option value="Caramel">Caramel</option>
+            <option value="Latte">Latte</option>
+        </select>
+         <label><input type="text" placeholder="Enter No.of Items"></label>
+        </div><br><br>
+        <label name="box5">Address:</label>
+        <textarea name="box5" id="" cols="20" rows="3"></textarea>
+    <br><br>
+        <button type="submit" >Place Order</button>
+    </div>
+         </form>
+</body>
+</html>
